@@ -1,0 +1,3848 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+body
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 4000px ;
+    grid-template-areas:"a1 a1 a1 a1 a1 a1"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a7 a7 a7 a7 a7 a12"
+                        "a55 a55 a55 a55 a55 a55";
+                        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header
+{
+    grid-area: a1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+
+}
+header nav
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/03/18093832/img-bg-1%402x-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+}
+header nav .logocontainer
+{
+    width: 20%;
+    height: 45%;
+    border-radius: 10PX;
+    border-color: darkgrey;
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    transition: 1s;
+    
+}
+.logo
+{
+    font-size: large;
+
+}
+header nav .logocontainer:hover
+{
+    background-color: rgb(194, 99, 67);
+}
+header nav .logocontainer h1
+{
+    width: 80%;
+    border-radius: 5px;
+    background-color: darkcyan;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+
+}
+header nav .logocontainer h1:hover
+{
+    background-color: rgb(190, 112, 151);
+    transform: scale(1.3, 1.3);
+    
+}
+.internallinks
+{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+
+header nav .internallinks button
+{
+    height: 50px;
+    border-radius: 10px;
+    border-color: darkgrey;
+    background-color: darkcyan;
+    border-style: double;
+    font-size: small;
+    width: 100%;
+    transition: 1s;
+}
+header nav .internallinks button:hover
+{
+    transform: scale(1.2, 1.2);
+    background-color: rgb(190, 112, 151);
+}
+header nav .internallinks a
+{
+    height: 50px;
+    border-radius: 10px;
+    border-color: darkgrey;
+    background-color: darkcyan;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main
+{
+    grid-area: a7;
+    background-image: url(https://images.unsplash.com/photo-1543250916-f1f6f91d9043?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdyZXlob3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coloroverlay1
+{
+    background-color: blanchedalmond;
+    opacity: 10%;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 3s;
+}
+.coloroverlay1:hover
+{
+    opacity: 100%;
+}
+main div article
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(218, 149, 103);
+    border-radius: 50px;
+    transition: 2s;
+
+}
+main div article:hover
+{
+    background-color: rgb(190, 71, 31);
+}
+.divart1
+{
+    height: 95%;
+    width: 40%;
+    background-color: lightblue;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divart2
+{
+    height: 95%;
+    width: 50%;
+    background-color: lightblue;
+    border-radius: 50px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+}
+.divart1 h1
+{
+    background-color: lightblue;
+}
+.divart2 p
+{
+    width: 80%;
+    background-color: lightblue;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main2
+{
+    background-image: url(https://c1.wallpaperflare.com/preview/880/335/829/whippet-dog-canine-pet.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-area: a7;
+    border-radius: 70px;
+   
+}
+
+.main2 fieldset 
+{
+    height: 100%;
+    width: 100%;
+    background-color:darkseagreen;
+    grid-area: a7;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:"b1 b1 b3"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4"
+                        "b4 b4 b4";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 70px;
+    border-style: none;
+    opacity: 20%;
+    transition: 3s;
+    row-gap: 1%;
+
+}
+.main2 fieldset:hover
+{
+    opacity: 100%;
+}
+.main2 fieldset element
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-area: b1;
+    background-color: darkseagreen;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.main2bkimg1
+{
+    grid-area: b3;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://rare-gallery.com/uploads/posts/764839-Dogs-Sighthound-Greyhound.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2 fieldset form
+{
+    height:100%;
+    width: 100%;
+    grid-area: b4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"c1 c2 c2"
+                        "c4 c4 c6"
+                        "c7 c8 c8"
+                        "c10 c10 c12"
+                        "c13 c14 c14"
+                        "c13 c14 c14"
+                        "c19 c19 c21";
+    row-gap: 1%;
+    background-color: darkseagreen;
+    border-radius: 50PX;
+}
+.secfld2
+{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-area: c2;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+    
+}
+.secfld3
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-area: c4;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+.secfld4 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-area: c8;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+.secfld5
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-area: c10;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+.secfld6
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    grid-area: c14;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+.secfld7
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-area: c19;
+    background-color: rgb(255, 161, 45);
+    font-size: large;
+    color: maroon;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+
+.main2bkimg2
+{
+    grid-area: c1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://kdzdesigns.com/wp-content/uploads/2018/06/Kitchen_014.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2bkimg3
+{
+    grid-area: c6;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp10071955.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2bkimg4
+{
+    grid-area: c7;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-12/Fast+Facts+About+Greyhounds+as+Pets+_+ASPCA+Pet+Health+Insurance+_+tan+greyhound+resting+on+carpet-min.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2bkimg5
+{
+    grid-area: c12;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp7342204.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2bkimg6
+{
+    grid-area: c13;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://c0.wallpaperflare.com/preview/350/285/210/dog-greyhound-azawakh-pet.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+.main2bkimg7
+{
+    grid-area: c21;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.vogue.es/photos/62347a0030a4ab1c8d586e75/master/w_3024,h_4032,c_limit/Ari%20after%204%20days%20of%20travel.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.main3
+{
+    grid-area: a7;
+    border-radius: 70px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"d1 "
+                        "d2 "
+                        "d3 "
+                        "d4 "
+                        "d5 "
+                        "d6 ";
+    background-image: none;
+    background-color: rgb(35, 79, 104);
+    row-gap: 2%;
+    
+
+}
+
+.product1
+{
+    grid-area: d1;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.product1:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.product2
+{
+    grid-area: d2;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.product2:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+
+.product3
+{
+    grid-area: d3;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.product3:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+.product4
+{
+    grid-area: d4;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.product4:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.product5
+{
+    grid-area: d5;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.product5:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+
+.product6
+{
+    grid-area: d6;
+    display: grid;
+    grid-template-areas: "da1 da2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(35, 79, 104);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+.productplacement
+{
+    grid-area: da1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 176, 80);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+.product 
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product p
+{
+    background-color: darkorange;
+    color: white;
+}
+.price
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price p
+{
+    background-color: darkorange;
+    color: white;
+}
+.description
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p
+{
+    grid-area: da1;
+    background-color: darkorange;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.product6:hover
+{
+    display: grid;
+    grid-template-areas: "da2 da1";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+.backimg1
+{
+     grid-area: da2;
+    background-image: url(https://i.etsystatic.com/19450326/c/2250/1788/0/105/il/72af50/3042564058/il_340x270.3042564058_opy1.jpg);
+    background-color: rgb(179, 118, 236);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.backimg2
+{
+     grid-area: da2;
+    background-image: url(https://i.etsystatic.com/19450326/r/il/318fc7/2713953548/il_340x270.2713953548_ctic.jpg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.backimg3
+{
+     grid-area: da2;
+    background-image: url(https://i.pinimg.com/736x/3e/aa/01/3eaa01699b816ec8a9d4a9fb1417d972--jersey-knit-sweaters.jpg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.backimg4
+{ 
+    grid-area: da2;
+    background-image: url(https://img.joomcdn.net/974b023165d57ad10ec040a7b95c87d8428783ef_original.jpeg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.backimg5
+{ 
+    grid-area: da2;
+    background-image: url(https://www.consumer.es/wp-content/uploads/2019/07/img_perros-lluvia-impermeable-art.jpg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.backimg6
+{ 
+    grid-area: da2;
+    background-image: url(https://www.paragalgo.com/wp-content/uploads/2020/03/Jersey-galgo-forro-polar-bicolor.jpg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+
+
+.main4 
+{
+    grid-area: a7;
+    background-image: none;
+    background-color:rgb(255, 228, 228);
+    color: white;
+    border-radius: 30px;
+}
+#box
+{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: inherit;
+    grid-template-areas:"e1 e1 e3"
+                        "e4 e4 e6"
+                        "e7 e7 e9"
+                        "e10 e10 e12"
+                        "e13 e13 e15"
+                        "e16 e16 e18";
+    grid-row-gap: 50px ;
+    border-radius: inherit;
+}
+#dog1
+{
+    grid-area: e1;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    
+}
+#dog2
+{
+    grid-area: e4;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+   
+}
+#dog3
+{
+    grid-area: e7;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    
+}
+#dog4
+{
+    grid-area: e10;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+   
+}
+#dog5
+{
+    grid-area: e13;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+   
+}
+#dog6
+{
+    grid-area: e16;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+
+}
+section .overlaycolor
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.overlaycolor  div
+{
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.overlaycolor div h1
+{
+    background-color: inherit;
+
+}
+.overlaycolor div p
+{
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.im1
+{
+    grid-area: e3;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im1 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im1 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+
+
+
+.im2
+{
+    grid-area: e6;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im2 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im2 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+.im3
+{
+    grid-area: e9;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im3 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im3 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+
+
+.im4
+{
+    grid-area: e12;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im4 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im4 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+
+.im5
+{
+    grid-area: e15;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im5 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im5 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+.im6
+{
+    grid-area: e18;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im6 img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.im6 img:hover
+{
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main5 
+{
+    grid-area: a7;
+    border-radius: 70px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"d1 "
+                        "d2 "
+                        "d3 "
+                        "d4 "
+                        "d5 "
+                        "d6 ";
+    background-image: none;
+    background-color: rgb(90, 134, 155);
+    row-gap: 2%;
+}
+
+
+
+.main5 div iframe
+{
+    background-color: inherit;
+    border-radius: 10px;
+    width: 60%;
+    height: 30%;
+}
+.main5 div ul
+{
+    border-radius:10px;
+    background-color: white;
+    list-style: none;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.main5 div ul li
+{
+    border-radius:10px;
+    background-color: white;
+    list-style: none;
+
+}
+.main5 div h1
+{
+    font-size: x-large;
+    border-radius:10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.main5 div h2
+{
+    font-size: larger;
+    border-radius:10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.main5 div p
+{
+    font-size: small;
+    border-radius:20px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+
+.map1
+{
+    grid-area: d1;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.map2
+{
+    grid-area: d2;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.map3
+{
+    grid-area: d3;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.map4
+{
+    grid-area: d4;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.map5
+{
+    grid-area: d5;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.map6
+{
+    grid-area: d6;
+    border-radius: inherit;
+    background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside
+{
+    grid-area: a12;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,rgb(187, 245, 245), rgb(96, 168, 168), rgb(202, 124, 56),rgb(216, 160, 188), rgb(155, 71, 71));
+    transition: 2s;
+    border-radius: 50px;
+}
+aside:hover
+{
+    background-color:rgb(224, 145, 171);
+    transform: translate(-105px);
+    background-image: none;
+}
+aside div
+{
+    width: 95%;
+    height: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 161, 161);
+    border-radius: 50px;
+    font-weight: 800;
+}
+aside div a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 161, 161);
+    border-radius: 50px;
+    border-width: 0px;
+    color: white;
+    font-weight: 800;
+}
+aside div a button
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 161, 161);
+    color: white;
+    font-weight: 800;
+    border-radius: 50px;
+    transition: 1s;
+}
+aside div a button:hover
+{
+    transform: scale(1.5, 1.5);
+    background-image: linear-gradient(to bottom , maroon,rgb(238, 187, 138), rgb(248, 230, 130) );
+}
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    grid-area: a55;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(190, 112, 151);
+}
+.facebook
+{
+     height: 70%;
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50px;
+     background-color: indigo;
+     position: sticky;
+}
+.facebook a button
+{
+    background-color: navy;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+.facebook a
+{
+    background-color: indigo;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+}
+.instagram
+{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color:indigo ;
+}
+.instagram a button
+{
+    background-image: linear-gradient(to left, blueviolet,violet,yellow);
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    color: rgb(87, 87, 87);
+
+}
+.instagram a
+{
+    background-color: blueviolet;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+}
+.whatsapp
+{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: indigo;
+}
+.whatsapp a button
+{
+    background-color: forestgreen;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+.whatsapp a
+{
+    background-color: forestgreen;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: blanchedalmond;
+        font-family: 'Fuzzy Bubbles', cursive;
+    }
+    body
+    {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 4500px ;
+        grid-template-areas:"a1 a1 a1 a1 a1 a1"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a7 a7 a7 a7 a7 a7"
+                            "a54 a54 a54 a54 a54 a54"
+                            "a55 a55 a55 a55 a55 a55"
+                            "a55 a55 a55 a55 a55 a55";
+                            
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    header
+    {
+        grid-area: a1;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+        
+    
+    }
+    header nav
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(https://gbgb-prod-assets.s3.eu-west-1.amazonaws.com/wp-content/uploads/2019/03/18093832/img-bg-1%402x-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       
+    
+    }
+    header nav .logocontainer
+    {
+        width: 20%;
+        height: 45%;
+        border-radius: 10PX;
+        border-color: darkgrey;
+        border-style: double;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: darkcyan;
+        transition: 1s;
+        
+    }
+    .logo
+    {
+        font-size: large;
+    
+    }
+    header nav .logocontainer:hover
+    {
+        background-color: rgb(194, 99, 67);
+    }
+    header nav .logocontainer h1
+    {
+        width: 80%;
+        border-radius: 5px;
+        background-color: darkcyan;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    
+    }
+    header nav .logocontainer h1:hover
+    {
+        background-color: rgb(190, 112, 151);
+        transform: scale(1.3, 1.3);
+        
+    }
+    .internallinks
+    {
+        height: 50%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    
+        
+    }
+    
+    header nav .internallinks button
+    {
+        height: 50px;
+        border-radius: 10px;
+        border-color: darkgrey;
+        background-color: darkcyan;
+        border-style: double;
+        font-size: small;
+        width: 100%;
+        transition: 1s;
+    }
+    header nav .internallinks button:hover
+    {
+        transform: scale(1.2, 1.2);
+        background-color: rgb(190, 112, 151);
+    }
+    header nav .internallinks a
+    {
+        height: 50px;
+        border-radius: 10px;
+        border-color: darkgrey;
+        background-color: darkcyan;
+        width: 100%;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    main
+    {
+        grid-area: a7;
+        background-image: url(https://images.unsplash.com/photo-1543250916-f1f6f91d9043?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdyZXlob3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .coloroverlay1
+    {
+        background-color: blanchedalmond;
+        opacity: 10%;
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 3s;
+    }
+    .coloroverlay1:hover
+    {
+        opacity: 100%;
+    }
+    main div article
+    {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(218, 149, 103);
+        border-radius: 50px;
+        transition: 2s;
+    
+    }
+    main div article:hover
+    {
+        background-color: rgb(190, 71, 31);
+    }
+    .divart1
+    {
+        height: 95%;
+        width: 80%;
+        background-color: lightblue;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divart2
+    {
+        height: 95%;
+        width: 80%;
+        background-color: lightblue;
+        border-radius: 50px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .divart1 h1
+    {
+        background-color: lightblue;
+    }
+    .divart2 p
+    {
+        width: 80%;
+        background-color: lightblue;
+        border-radius: 50px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .main2
+    {
+        background-image: url(https://c1.wallpaperflare.com/preview/880/335/829/whippet-dog-canine-pet.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-area: a7;
+        border-radius: 70px;
+       
+    }
+    
+    .main2 fieldset 
+    {
+        height: 100%;
+        width: 100%;
+        background-color:darkseagreen;
+        grid-area: a7;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:"b1 b1 b3"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4"
+                            "b4 b4 b4";
+    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        border-radius: 70px;
+        border-style: none;
+        opacity: 20%;
+        transition: 3s;
+        row-gap: 1%;
+    
+    }
+    .main2 fieldset:hover
+    {
+        opacity: 100%;
+    }
+    .main2 fieldset element
+    {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-area: b1;
+        background-color: darkseagreen;
+        font-size: x-large;
+        color: white;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+    
+    .main2bkimg1
+    {
+        grid-area: b3;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://rare-gallery.com/uploads/posts/764839-Dogs-Sighthound-Greyhound.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2 fieldset form
+    {
+        height:100%;
+        width: 100%;
+        grid-area: b4;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:"c1 c2 c2"
+                            "c4 c4 c6"
+                            "c7 c8 c8"
+                            "c10 c10 c12"
+                            "c13 c14 c14"
+                            "c13 c14 c14"
+                            "c19 c19 c21";
+        row-gap: 1%;
+        background-color: darkseagreen;
+        border-radius: 50PX;
+    }
+    .secfld2
+    {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        grid-area: c2;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+        
+    }
+    .secfld3
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        grid-area: c4;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+    
+    }
+    .secfld4 
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        grid-area: c8;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+    
+    }
+    .secfld5
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        grid-area: c10;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+    
+    }
+    .secfld6
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        grid-area: c14;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+    
+    }
+    .secfld7
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-area: c19;
+        background-color: rgb(255, 161, 45);
+        font-size: large;
+        color: maroon;
+        font-weight: bold;
+        border-radius: 50px;
+    
+    }
+    
+    .main2bkimg2
+    {
+        grid-area: c1;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://kdzdesigns.com/wp-content/uploads/2018/06/Kitchen_014.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2bkimg3
+    {
+        grid-area: c6;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://wallpapercave.com/wp/wp10071955.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2bkimg4
+    {
+        grid-area: c7;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-12/Fast+Facts+About+Greyhounds+as+Pets+_+ASPCA+Pet+Health+Insurance+_+tan+greyhound+resting+on+carpet-min.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2bkimg5
+    {
+        grid-area: c12;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://wallpapercave.com/wp/wp7342204.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2bkimg6
+    {
+        grid-area: c13;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://c0.wallpaperflare.com/preview/350/285/210/dog-greyhound-azawakh-pet.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .main2bkimg7
+    {
+        grid-area: c21;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://media.vogue.es/photos/62347a0030a4ab1c8d586e75/master/w_3024,h_4032,c_limit/Ari%20after%204%20days%20of%20travel.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .main3
+    {
+        grid-area: a7;
+        border-radius: 70px;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:"d1 "
+                            "d2 "
+                            "d3 "
+                            "d4 "
+                            "d5 "
+                            "d6 ";
+        background-image: none;
+        background-color: rgb(35, 79, 104);
+        row-gap: 2%;
+        
+    
+    }
+    
+    .product1
+    {
+        grid-area: d1;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .product1:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    .product2
+    {
+        grid-area: d2;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .product2:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    .product3
+    {
+        grid-area: d3;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .product3:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    
+    .product4
+    {
+        grid-area: d4;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .product4:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    .product5
+    {
+        grid-area: d5;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .product5:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    
+    
+    .product6
+    {
+        grid-area: d6;
+        display: grid;
+        grid-template-areas: "da1 da2";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(35, 79, 104);
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .productplacement
+    {
+        grid-area: da1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(240, 176, 80);
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .product 
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .price
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price p
+    {
+        background-color: darkorange;
+        color: white;
+    }
+    .description
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        border-radius: 10px;
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description p
+    {
+        grid-area: da1;
+        background-color: darkorange;
+        color: white;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .product6:hover
+    {
+        display: grid;
+        grid-template-areas: "da2 da1";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    
+    .backimg1
+    {
+         grid-area: da2;
+        background-image: url(https://i.etsystatic.com/19450326/c/2250/1788/0/105/il/72af50/3042564058/il_340x270.3042564058_opy1.jpg);
+        background-color: rgb(179, 118, 236);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .backimg2
+    {
+         grid-area: da2;
+        background-image: url(https://i.etsystatic.com/19450326/r/il/318fc7/2713953548/il_340x270.2713953548_ctic.jpg);
+        background-color: blueviolet;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .backimg3
+    {
+         grid-area: da2;
+        background-image: url(https://i.pinimg.com/736x/3e/aa/01/3eaa01699b816ec8a9d4a9fb1417d972--jersey-knit-sweaters.jpg);
+        background-color: blueviolet;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .backimg4
+    { 
+        grid-area: da2;
+        background-image: url(https://img.joomcdn.net/974b023165d57ad10ec040a7b95c87d8428783ef_original.jpeg);
+        background-color: blueviolet;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .backimg5
+    { 
+        grid-area: da2;
+        background-image: url(https://www.consumer.es/wp-content/uploads/2019/07/img_perros-lluvia-impermeable-art.jpg);
+        background-color: blueviolet;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .backimg6
+    { 
+        grid-area: da2;
+        background-image: url(https://www.paragalgo.com/wp-content/uploads/2020/03/Jersey-galgo-forro-polar-bicolor.jpg);
+        background-color: blueviolet;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+    
+    
+    
+    
+    .main4 
+    {
+        grid-area: a7;
+        background-image: none;
+        background-color:rgb(255, 228, 228);
+        color: white;
+        border-radius: 30px;
+    }
+    #box
+    {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        background-color: inherit;
+        grid-template-areas:"e1 e1 e3"
+                            "e4 e4 e6"
+                            "e7 e7 e9"
+                            "e10 e10 e12"
+                            "e13 e13 e15"
+                            "e16 e16 e18";
+        grid-row-gap: 50px ;
+        border-radius: inherit;
+    }
+    #dog1
+    {
+        grid-area: e1;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        
+    }
+    #dog2
+    {
+        grid-area: e4;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+       
+    }
+    #dog3
+    {
+        grid-area: e7;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        
+    }
+    #dog4
+    {
+        grid-area: e10;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+       
+    }
+    #dog5
+    {
+        grid-area: e13;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+       
+    }
+    #dog6
+    {
+        grid-area: e16;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://blog.mystart.com/wp-content/uploads/AdobeStock_92888113-e1543959798380.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+    
+    }
+    section .overlaycolor
+    {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 80%;
+        border-radius: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .overlaycolor  div
+    {
+        background-color: inherit;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .overlaycolor div h1
+    {
+        background-color: inherit;
+    
+    }
+    .overlaycolor div p
+    {
+        background-color: inherit;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    
+    
+    .im1
+    {
+        grid-area: e3;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im1 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im1 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    
+    
+    
+    
+    .im2
+    {
+        grid-area: e6;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im2 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im2 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    .im3
+    {
+        grid-area: e9;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im3 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im3 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    
+    
+    
+    .im4
+    {
+        grid-area: e12;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im4 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im4 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    
+    
+    .im5
+    {
+        grid-area: e15;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im5 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im5 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    
+    .im6
+    {
+        grid-area: e18;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        border-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .im6 img
+    {
+        height: 200px;
+        width: 150px;
+        border-radius: 50px;
+        transition: 2s;
+    }
+    .im6 img:hover
+    {
+        transform: scale(1.3, 1.3);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .main5 
+    {
+        grid-area: a7;
+        border-radius: 70px;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:"d1 "
+                            "d2 "
+                            "d3 "
+                            "d4 "
+                            "d5 "
+                            "d6 ";
+        background-image: none;
+        background-color: rgb(90, 134, 155);
+        row-gap: 2%;
+    }
+    
+    .main5 div iframe
+    {
+        background-color: inherit;
+        border-radius: 10px;
+        width: 60%;
+        height: 30%;
+    }
+    .main5 div ul
+    {
+        border-radius:10px;
+        background-color: white;
+        list-style: none;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .main5 div ul li
+    {
+        border-radius:10px;
+        background-color: white;
+        list-style: none;
+    
+    }
+    .main5 div h1
+    {
+        font-size: x-large;
+        border-radius:10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .main5 div h2
+    {
+        font-size: larger;
+        border-radius:10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .main5 div p
+    {
+        font-size: small;
+        border-radius:20px;
+        background-color:white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .map1
+    {
+        grid-area: d1;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .map2
+    {
+        grid-area: d2;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .map3
+    {
+        grid-area: d3;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .map4
+    {
+        grid-area: d4;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .map5
+    {
+        grid-area: d5;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .map6
+    {
+        grid-area: d6;
+        border-radius: inherit;
+        background-image: linear-gradient(to bottom , rgb(161, 103, 93), rgb(155, 197, 204), rgb(168, 222, 253));
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    aside
+    {
+        grid-area: a54;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to bottom , rgb(96, 168, 168), rgb(202, 124, 56), rgb(155, 71, 71));
+        border-radius: 50px;
+    }
+    aside:hover
+    {
+        
+        transform: translate(0px);
+        background-image: linear-gradient(to bottom , rgb(96, 168, 168), rgb(202, 124, 56), rgb(155, 71, 71));
+    }
+    aside div
+    {
+        width: 95%;
+        height: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 161, 161);
+        border-radius: 50px;
+        font-weight: 800;
+    }
+    aside div a
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 161, 161);
+        border-radius: 50px;
+        border-width: 0px;
+        color: white;
+        font-weight: 800;
+    }
+    aside div a button
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 161, 161);
+        color: white;
+        font-weight: 800;
+        border-radius: 50px;
+        transition: 1s;
+    }
+    aside div a button:hover
+    {
+        transform: scale(1.5, 1.5);
+        background-image: linear-gradient(to bottom , maroon,rgb(238, 187, 138), rgb(248, 230, 130) );
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    footer
+    {
+        grid-area: a55;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: rgb(190, 112, 151);
+    }
+    .facebook
+    {
+         height: 30%;
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50px;
+         background-color: indigo;
+         
+    }
+    .facebook a button
+    {
+        background-color: navy;
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+        color: white;
+    }
+    .facebook a
+    {
+        background-color: indigo;
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+    }
+    .instagram
+    {
+        height: 30%;
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50px;
+         background-color: indigo;
+        
+    }
+    .instagram a button
+    {
+        background-image: linear-gradient(to left, blueviolet,violet,yellow);
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+        color: rgb(87, 87, 87);
+    
+    }
+    .instagram a
+    {
+        background-color: blueviolet;
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+    }
+    .whatsapp
+    {
+        height: 30%;
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50px;
+         background-color: indigo;
+        
+    }
+    .whatsapp a button
+    {
+        background-color: forestgreen;
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+        color: white;
+    }
+    .whatsapp a
+    {
+        background-color: forestgreen;
+        border-radius: 50px;
+        height: 50px;
+        width: 150px;
+    }
+
+
+}
